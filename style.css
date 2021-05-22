@@ -634,3 +634,104 @@ main {
 	height: 100%;
 	margin: 0;
 }
+
+
+/* LES ACTIVITES A MARSEILLES   */
+.titleactivitiesmarseilles{
+	justify-content: end;
+}
+
+.lesactivities{
+	display: grid;
+	height: 550px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 3fr 0.3fr 0.3fr 0.3fr 0.3fr 0.3fr 3fr;
+	grid-gap: 30px;
+	margin-bottom: 30px;
+
+}
+
+
+
+.lacarte10{
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start: 1;
+	grid-row-end: 8;
+}
+
+.lacarte11{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start: 1;
+	grid-row-end: 7;
+}
+
+.lacarte12{
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start: 7;
+	grid-row-end: 8;
+}
+
+.lacarte13{
+	grid-column-start:3;
+	grid-column-end:4;
+	grid-row-start: 1;
+	grid-row-end: 8;
+}
+
+.lacarte14{
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start: 1;
+	grid-row-end:5;
+}
+
+.lacarte15{
+	grid-column-start:4;
+	grid-column-end:5;
+	grid-row-start: 5;
+	grid-row-end:8;
+}
+
+
+.lesactivities .lescartesactivities{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px ;
+	box-shadow: 10px 10px 10px #E4E1E1;
+
+}
+
+.lescartesactivities img{
+	object-fit: cover;
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	margin:0;
+}
+
+
+.lesactivities .titlecartesactivities {
+	position: absolute;
+	width: 95%;
+	background-color: white;
+	border-radius: 0px 0 20px 20px;
+	padding: 20px 0 20px 5%;
+	margin: 0;
+	bottom: 0;
+}
+
+
+.activitiesimg{
+	height: 100%;
+	margin: 0;
+}
+
+
+.lesactivities a{
+	text-decoration: none;
+	color: black;
+}
