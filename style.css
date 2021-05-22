@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	font-family: 'Raleway Regular';
+}
+
+
+/*HEADER */
+
+header{
+	max-width: 1400px;
+	width: 97%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+
+.item1{
+	margin-left:350px;
+}
+.conteneur1{
+	display: grid;
+	grid-template-columns: 55% 45%;
+	grid-template-rows:  1fr;
+	
+
+}
+
+.les3liens{
+	grid-column-start: 2;
+	grid-column-end:3 ;
+	grid-row-start:1;
+	grid-row-end: 2;
+	
+}
+
+.letitrelogo{
+	grid-column-start:1 ;
+	grid-column-end:2 ;
+	grid-row-start:1;
+	grid-row-end: 2;
+
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+
+hr{
+	border: solid 2px #0065FC;
+	width: 200px;
+	
+}
+
+
+.item21{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.lienhostings{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start:1;
+	grid-row-end:2 ;
+}
+
+.lienactivities{
+	grid-column-start:2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end:2 ;
+}
+
+
+
+.liensinscrire{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end:2 ;
+}
