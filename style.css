@@ -459,3 +459,178 @@ main {
 .etoile_vide{
 	color: #0065FC;
 }
+
+/* LES PLUS POPULAIRES */
+
+.populars{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.25fr 1fr 1fr 1fr;
+	grid-row-gap: 20px;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	height:auto;
+	padding: 10px;
+}
+
+.populars img{
+	object-fit: cover;
+	width: 100%;
+	max-height: 180px;
+	
+}
+
+#graph{float: right;
+	margin-right: 15px;}
+
+
+
+
+
+.lescartespopu{
+	background-color: #FFFFFF;
+	border-radius: 20px;
+	padding: 5px;
+	box-shadow: 10px 10px 10px #E4E1E1;
+	font-size: 18px;
+	max-width: 400px;
+	max-height: 180px;
+}
+
+
+.titrepopulars{
+	grid-column-start: 1;
+	grid-column-end:2 ;
+	grid-row-start:1 ;
+	grid-row-end:2 ;
+}
+
+.lacarte7{
+	grid-column-start: 1;
+	grid-column-end:2 ;
+	grid-row-start:2;
+	grid-row-end:3 ;
+}
+
+.lacarte8{
+	grid-column-start: 1;
+	grid-column-end:2 ;
+	grid-row-start:3 ;
+	grid-row-end:4 ;
+}
+
+.lacarte9{
+	grid-column-start: 1;
+	grid-column-end:2 ;
+	grid-row-start:4 ;
+	grid-row-end:5 ;
+}
+
+
+
+
+.populars a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.populars .lescartespopu{
+	position: relative;
+	width: 95%;
+	height: 100%;
+	border-radius: 20px ;
+	box-shadow: 10px 10px 10px #E4E1E1;
+
+}
+
+.lescartespopu img{
+	object-fit: cover;
+	border-radius: 20px 0 0 20px;
+	width: 100%;
+	height: 100%;
+	margin:0;
+}
+
+
+.lacarte71{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: 1fr;
+	grid-column-gap: 10px;
+}
+
+.img7{
+	grid-column-start: 1;
+	grid-column-end:2 ;
+	grid-row-start:1 ;
+	grid-row-end: 2;
+}
+
+.letexte7{
+	grid-column-start: 2;
+	grid-column-end:3 ;
+	grid-row-start:1 ;
+	grid-row-end:2 ;
+}
+
+
+.lacarte71{
+	height: 100%;
+	margin: 0;
+}
+
+
+
+.lacarte81{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: 1fr;
+	grid-column-gap: 10px;
+}
+
+.img8{
+	grid-column-start: 1;
+	grid-column-end:2 ;
+	grid-row-start:1 ;
+	grid-row-end: 2;
+}
+
+.letexte8{
+	grid-column-start: 2;
+	grid-column-end:3 ;
+	grid-row-start:1 ;
+	grid-row-end:2 ;
+}
+
+.lacarte81{
+	height: 100%;
+	margin: 0;
+}
+
+
+.lacarte91{
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: 1fr;
+	grid-column-gap: 10px;
+}
+
+.img9{
+	grid-column-start: 1;
+	grid-column-end:2 ;
+	grid-row-start:1 ;
+	grid-row-end: 2;
+}
+
+.letexte9{
+	grid-column-start: 2;
+	grid-column-end:3 ;
+	grid-row-start:1 ;
+	grid-row-end:2 ;
+}
+
+.lacarte91{
+	height: 100%;
+	margin: 0;
+}
