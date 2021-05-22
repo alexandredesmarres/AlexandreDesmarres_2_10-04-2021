@@ -797,3 +797,49 @@ footer {
 
 
 .footer_item a {line-height: 2em;}
+
+
+ /* -----------------LES SCALES EFFET D'IMAGE -----------*/
+
+	/*--- HOSTING ----*/
+
+    .lescarteshostings{
+        transform: scale(1);
+        transform: scale(1);
+        transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .lescarteshostings:hover   {
+        transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    
+    
+        /* ---populaires --- */
+    
+    .lacarte7, .lacarte8, .lacarte9 {
+        transform: scale(1);
+        transform: scale(1);
+        transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .lacarte7:hover , .lacarte8:hover , .lacarte9:hover {
+        transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    
+    
+    /*   -----  activités à Marseille ---- */
+    
+    .lacarte10, .lacarte11, .lacarte12, .lacarte13, .lacarte14, .lacarte15{
+        transform: scale(1);
+        transform: scale(1);
+        transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .lacarte10:hover , .lacarte11:hover , .lacarte12:hover , .lacarte13:hover, .lacarte14:hover , .lacarte15:hover{
+        transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    
+    
